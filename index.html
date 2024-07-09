@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <style>
+        button {
+        color: white;
+        background-color: #555;
+        height: 160px;
+        width: 160px;
+        font-size: 40px;
+        }
+        body {
+        font-family: Inter;
+        font-size: 30px;
+        background-color: #222;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p>Super Game Clicker</p>
+        <button id="btn">CLICK</button>
+        <p id="score">Score: 0</p>
+    </div>
+    <script>
+        let mainButton = document.getElementById("btn");
+        let scoreLabel = document.getElementById("score");
+        let score = 0;
+        mainButton.addEventListener("click", () => {
+            score += 1;
+            scoreLabel.textContent = "Score: " + score;
+        })
+    </script>
+</body>
+</html>
