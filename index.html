@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coin Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="menu">
+    <button onclick="openMainTab('top')" class="mainTab">
+        <img src="images/top.png" alt="Image 1" draggable="false">
+        Top
+    </button>
+    <button onclick="openMainTab('shop')" class="mainTab">
+        <img src="images/shop.png" alt="Image 2" draggable="false">
+        Shop
+    </button>
+    <button onclick="openMainTab('home')" class="mainTab">
+        <img src="images/home.png" alt="Image 3" draggable="false">
+        Home
+    </button>
+    <button onclick="openMainTab('games')" class="mainTab">
+        <img src="images/games.png" alt="Image 4" draggable="false">
+        Games
+    </button>
+    <button onclick="openMainTab('invest')" class="mainTab">
+        <img src="images/money.png" alt="Image 5" draggable="false">
+        Биржа
+    </button>
+</div>
+<div class="content selected" id="home">
+    <h1 class="pageHeader">Game Clicker</h1>
+    <p id="score">Счет: </p>
+    <p id="perClick">За нажатие: </p>
+    <p id="income">Доход в секунду: </p>
+    <button id="clickButton">
+        <img src="images/bitcoin.png" alt="Button" draggable="false">
+    </button>
+</div>
+
+<div class="content" id="top">
+    <h1 class="pageHeader">Tops</h1>
+    <h2>Cooming soon</h2>
+</div>
+
+<div class="content" id="games">
+    <h1 class="pageHeader">Games</h1>
+    <h2>Cooming soon</h2>
+</div>
+
+<div class="content" id="invest">
+    <h1 class="pageHeader">Биржа</h1>
+    <h2>Cooming soon</h2>
+</div>
+
+<div class="content" id="shop">
+    <h1 class="pageHeader">Shop</h1>
+    <div class="tabs">
+        <button class="tab-button active" onclick="openTab('videocard')">Видеокарты</button>
+        <button class="tab-button" onclick="openTab('processor')">Процессоры</button>
+        <button class="tab-button" onclick="openTab('mouse')">Мышки</button>
+    </div>
+    <div id="videocard" class="tab active">
+        <h2>Видеокарты</h2>
+    </div>
+    <div id="processor" class="tab">
+        <h2>Процессоры</h2>
+    </div>
+    <div id="mouse" class="tab">
+        <h2>Мышки</h2>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
