@@ -2,17 +2,17 @@
   "score": 33,
   "upgrades": {
     "videocard": {
-      "1": 0,
-      "2": 0
+      "Обычная видеокарта": 0,
+      "SUPER видеокарта": 0
     },
     "processor": {
-      "1": 0,
-      "2": 0
+      "INTEL": 0,
+      "AMD": 0
     },
     "mouse": {
-      "1": 0,
-      "2": 0,
-      "3": 0
+      "Logitech": 0,
+      "Bloody": 0,
+      "SteelSeries": 0
     }
   }
 }
