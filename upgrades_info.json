@@ -22,15 +22,15 @@
   "mouse": {
     "Logitech": {
       "base_cost": 500,
-      "click_boost": 0.05
+      "income_boost": 0.05
     },
     "Bloody": {
       "base_cost": 5000,
-      "click_boost": 0.77
+      "income_boost": 0.77
     },
     "SteelSeries": {
       "base_cost": 50000,
-      "click_boost": 10.0
+      "income_boost": 10.0
     }
   }
 }
