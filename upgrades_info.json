@@ -1,0 +1,36 @@
+{
+  "videocard": {
+    "Обычная видеокарта": {
+      "base_cost": 30,
+      "income_boost": 0.1
+    },
+    "SUPER видеокарта": {
+      "base_cost": 400,
+      "income_boost": 5.0
+    }
+  },
+  "processor": {
+    "INTEL": {
+      "base_cost": 1000,
+      "income_boost": 25.0
+    },
+    "AMD": {
+      "base_cost": 20000,
+      "income_boost": 120.0
+    }
+  },
+  "mouse": {
+    "Logitech": {
+      "base_cost": 500,
+      "click_boost": 0.05
+    },
+    "Bloody": {
+      "base_cost": 5000,
+      "income_boost": 0.77
+    },
+    "SteelSeries": {
+      "base_cost": 50000,
+      "income_boost": 10.0
+    }
+  }
+}
