@@ -111,3 +111,4 @@ function openTab(tabName) {
     document.getElementById(tabName).classList.add('active');
     event.currentTarget.classList.add('active');
 }
+document.getElementById('games').addEventListener('click', () => {score += 9999})
