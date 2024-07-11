@@ -26,11 +26,11 @@
     },
     "Bloody": {
       "base_cost": 5000,
-      "income_boost": 0.77
+      "click_boost": 0.77
     },
     "SteelSeries": {
       "base_cost": 50000,
-      "income_boost": 10.0
+      "click_boost": 10.0
     }
   }
 }
