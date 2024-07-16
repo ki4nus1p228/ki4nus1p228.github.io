@@ -2,9 +2,6 @@ var score = 0;
 var income = 0;
 var perClick = 0.01;
 
-let tg = window.Telegram.WebApp;
-tg.expand();
-
 const scoreDisplay = document.getElementById('score');
 const perClickDisplay = document.getElementById('perClick');
 const incomeDisplay = document.getElementById('income');
@@ -85,10 +82,8 @@ clickButton.addEventListener('click', () => {
 
 function updateInfo() {
   scoreDisplay.textContent = "Счет: " + score.toFixed(2);
-//  perClickDisplay.textContent = "За нажатие: " + perClick.toFixed(2);
-//  incomeDisplay.textContent = "Доход в секунду: " + income.toFixed(2);
-  incomeDisplay.textContent = "Доход в секунду: " + tg.initDataUnsafe.user.username;
-  perClickDisplay.textContent = "За нажатие: " + tg.initDataUnsafe.user.id;
+  perClickDisplay.textContent = "За нажатие: " + perClick.toFixed(2);
+  incomeDisplay.textContent = "Доход в секунду: " + income.toFixed(2);
 }
 
 setInterval(() => {
