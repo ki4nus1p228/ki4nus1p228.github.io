@@ -1,7 +1,7 @@
 var score = 0;
 var income = 0;
 var perClick = 0.01;
-
+console.log("privet123");
 const scoreDisplay = document.getElementById('score');
 const perClickDisplay = document.getElementById('perClick');
 const incomeDisplay = document.getElementById('income');
